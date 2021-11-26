@@ -53,6 +53,7 @@ body {
     margin: auto 0;
     height: 50px;
     border: 1px solid #dbdbdb;
+    color: #000000;
     background-color: #ffffff;
 }
 #submit-btn:hover {
@@ -72,29 +73,12 @@ body {
         padding-left: 30px;
         padding-right: 30px;
     }
-}
-@media only screen and (max-width: 750px) {
-#rand-fact-text {
-    font-size: 2.5vw;
-}
-}
-@media only screen and (max-width: 350px) {
-    #left-title, #middle-title {
-        font-size: 3vw;
-        padding-top: 10px;
-    }
-    #rand-fact-container {
-        height: 200px;
-    }
     #rand-fact-text {
-        font-size: 3vw;
-    }
-    #submit-btn {
-        font-size: 14px;
+        font-size: 2.5vw;
     }
 }
-@media only screen and (max-width: 300px) {
-    #submit-btn {
-        font-size: 5vw;
+@media only screen and (max-width: 600px) {
+    #rand-fact-text {
+    font-size: 3.2vw;
     }
 }
