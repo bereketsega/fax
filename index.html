@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image" href="bulb-icon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Fax</title>
+</head>
+<body>
+    <!--Header Component-->
+    <header id="header-container">
+        <div id="left-title">Fax</div>
+        <div id="middle-title">Random Fact Generator</div>
+        <div id="repo-link">
+            <a href="https://github.com/bereketsega/fax" target="_blank">
+            <img src="github.png" height="30"> 
+            </a>
+        </div>
+    </header>
+    <!--Body Component-->
+    <div id="rand-fact-container"><p id=rand-fact-text></p></div>
+    <div id="submit-block" > 
+        <input onclick="generateRandomFact()" id="submit-btn" type="button" value="Generate">
+     </div>
+    <script src="script.js"></script>
+</body>
+</html>

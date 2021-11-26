@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Poppins&display=swap');
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: #fafafa;
+}
+
+/* header designs */
+#header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dbdbdb;
+}
+#left-title, #middle-title {
+    font-size: 2vw;
+    font-weight: bold;  
+}
+
+/* generated text designs */
+#rand-fact-container {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 300px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+}
+#rand-fact-text {
+    font-size: 1.7vw;
+}
+
+/* generate button designs */
+#submit-block {
+    justify-content: center;
+    text-align: center;
+}
+#submit-btn {
+    font-weight: bold;
+    font-size: 16px;
+    width: 30%;
+    margin: auto 0;
+    height: 50px;
+    border: 1px solid #dbdbdb;
+    background-color: #ffffff;
+}
+#submit-btn:hover {
+    cursor: pointer;
+}
+#submit-btn:active{
+    background-color: #fafafa;
+}
+
+/* responsive designs */
+@media only screen and (max-width: 900px) {
+    #left-title, #middle-title {
+        font-size: 16px;
+        padding-top: 5px;
+    }
+    #header-container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media only screen and (max-width: 750px) {
+#rand-fact-text {
+    font-size: 2.5vw;
+}
+}
+@media only screen and (max-width: 350px) {
+    #left-title, #middle-title {
+        font-size: 3vw;
+        padding-top: 10px;
+    }
+    #rand-fact-container {
+        height: 200px;
+    }
+    #rand-fact-text {
+        font-size: 3vw;
+    }
+    #submit-btn {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    #submit-btn {
+        font-size: 5vw;
+    }
+}
